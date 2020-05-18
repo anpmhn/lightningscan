@@ -36,6 +36,6 @@ screenLock = threading.Semaphore(value=1)
 
 for port in range(0,65535):
     start_thread(ip, port)
-# Comment the below line to remove  5 Second delay after each port check
+# Uncomment the below line to add 5 Second delay after each port check
 #    time.sleep(5)
 
